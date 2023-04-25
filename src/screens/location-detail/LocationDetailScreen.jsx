@@ -7,6 +7,7 @@ import { COLORS } from '../../utils/theme'
 import { Link } from '@react-navigation/native'
 import { UserContext } from '../../contexts/UserContext'
 
+
 export const LocationDetailScreen = ({ route }) => {
   const { item } = route.params
   const { currentUser } = useContext(UserContext)

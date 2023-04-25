@@ -1,6 +1,7 @@
 import { StyleSheet, StatusBar, Dimensions } from 'react-native'
 import { COLORS, FONT_SIZE } from '../../utils/theme'
 
+
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
